@@ -5,7 +5,7 @@
   "url": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
   "tests": [{
     "id": "6bef3410-a32d-4288-a166-a07dcadce7ba",
-    "name": "",
+    "name": "Assert oppettider",
     "commands": [{
       "id": "8b9b21ed-0bc4-49c0-b4d0-936919331047",
       "comment": "",
