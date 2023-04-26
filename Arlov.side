@@ -240,7 +240,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["6bef3410-a32d-4288-a166-a07dcadce7ba"]
+    "tests": ["6bef3410-a32d-4288-a166-a07dcadce7ba", "0a725c8e-fba2-4568-aaeb-80457037e446"]
   }],
   "urls": ["https://bibliotek.burlov.se/-/arlovs-bibliotek"],
   "plugins": []
