@@ -128,6 +128,111 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "0a725c8e-fba2-4568-aaeb-80457037e446",
+    "name": "assert språk",
+    "commands": [{
+      "id": "39b61c46-ab2d-46af-aa34-ed6936b504b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67f7f3c1-7e3c-4f39-bac2-b6983b423ef7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bde99c7-86f7-430a-9b2e-14960a94a1c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#navigation li:nth-child(5) span",
+      "targets": [
+        ["css=#navigation li:nth-child(5) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Burlövs många språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0de9cbb-e818-4102-9fb7-9feed32f0415",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Språk",
+      "targets": [
+        ["linkText=Språk", "linkText"],
+        ["css=li:nth-child(3) > .header-shortcuts__language", "css:finder"],
+        ["xpath=//a[contains(text(),'Språk')]", "xpath:link"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba225926-e640-4795-94f7-de789013adda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goog-te-combo",
+      "targets": [
+        ["css=.goog-te-combo", "css:finder"],
+        ["xpath=//div[@id=':0.targetLanguage']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6c5813-9cf5-487d-930d-aa3411f4e500",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=arabiska"
+    }, {
+      "id": "fe5ab14f-e3af-4b6b-a1ea-e9f26512b342",
+      "comment": "",
+      "command": "click",
+      "target": "css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close",
+      "targets": [
+        ["css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet']/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'يغلق')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48d63d1-237d-48c4-a8a7-637ae02227a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'معلومات الاتصال')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9efcc867-32ea-4e71-b02e-535294113dba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2) > font > font",
+      "targets": [
+        ["css=h2:nth-child(2) > font > font", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/h2/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2/font/font", "xpath:position"]
+      ],
+      "value": "معلومات الاتصال"
+    }, {
+      "id": "3e32fda2-05e4-4ff2-a951-2ed1a2b20226",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "bfd66204-9793-49d2-b960-d21a1e7e78c5",
